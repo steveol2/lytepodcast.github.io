@@ -1,0 +1,188 @@
+body {
+  font-family: 'Acme', sans-serif;
+  color: #fff;
+}
+
+h1 {
+  font-size: 4.7rem;
+  font-family: 'Yeseva One', sans-serif, cursive;
+}
+
+
+p {
+  font-family: 'Yeseva One', sans-serif, cursive;
+}
+
+#title {
+
+}
+
+.container-fluid {
+  background-color: #A6BB8D;
+  background-image: url("../images/eva-image.png");
+  background-size: cover;
+  padding: 5% 15% 10%;
+  height: 100vh;
+}
+
+/* naigation-bar */
+.navbar {
+  background-color: #3C6255;
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 1.5rem;
+  padding-left: 10%;
+  font-family: 'Yeseva One', sans-serif, cursive;
+}
+
+.nav-item {
+  padding: 0 20px;
+
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.download-button {
+  margin-top: 15px;
+  padding: 10px 35px;
+  border-radius: 15px
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #3C6255;
+  border-color: #3C6255;
+}
+
+/* episode */
+#episode {
+  padding: 100px;
+  background-image: url("../images/episode.png");
+  background-size: cover;
+}
+
+.episode-coloum {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.card {
+  background-color: #61876E;
+}
+
+.btn-episode {
+  margin-top: 23%;
+}
+
+/* about */
+#about {
+  background-image: url("../images/about-img.png");
+  background-size: cover;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  padding: 200px;
+}
+
+.eva-font {
+  padding-bottom: 40px;
+  color: #000000;
+}
+
+/* footer */
+#cta {
+  background-color: #EAE7B1;
+  color: #03001C;
+  background-size: cover;
+  text-align: center;
+  padding: 100px;
+}
+
+.icon {
+  margin-top: 70px;
+  margin-bottom: 1rem;
+  color: #3C6255;
+}
+
+.icon:hover {
+  color: #61876E;
+}
+
+.cta-icons {
+  color: #61876E;
+  margin-top: 8rem;
+  margin-left: 10px;
+  margin-right: 10px
+
+}
+
+.Copyright {
+  margin-top: 1.5rem;
+  color: #A6BB8D;
+}
+
+/* container-fluid meidia */
+@media (max-width: 587px) {
+  .container-fluid {
+    background-image: url("../images/green-img.png");
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 3.9rem;
+    color: #fff;
+    margin-top: 50px;
+    position: relative;
+  }
+
+  p {
+    color: #fff;
+  }
+
+  .card-font {
+    color: #000000;
+    font-weight: lighter;
+  }
+}
+
+@media (max-width: 411px) {
+  .container-fluid {
+    text-align: center;
+    padding-bottom: 1px;
+  }
+
+  h1 {
+    font-size: 3.2rem;
+  }
+}
+
+@media (max-width: 659px) {
+  #about {
+    font-size: 20px;
+    text-align: center;
+    padding: 100px
+  }
+
+  .eva-font {
+    color: #000000;
+  }
+
+  .feature-box {
+    margin: 20px 0px;
+  }
+}
+
+@media (max-width: 429px) {
+  #about {
+    font-size: 15px;
+    text-align: center;
+    padding: 100px
+  }
+}
+
+@media (max-width:)
